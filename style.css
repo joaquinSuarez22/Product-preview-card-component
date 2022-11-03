@@ -106,3 +106,89 @@ main {
   padding-right: 1rem;
   color: var(--Dark-grayish-blue);
 }
+
+@media screen and (max-width: 1439px) {
+  .img-desktop {
+    display: none;
+  }
+
+  .desktop-br {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .img-mobile {
+    display: none;
+  }
+
+  .card {
+    flex-direction: row;
+    width: 810px;
+    height: 600px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+  }
+
+  .img-desktop img {
+    width: 400px;
+    height: auto;
+  }
+
+  .text-perfume {
+    padding-left: 2rem;
+
+    padding-top: 2rem;
+    text-align: left;
+    padding-bottom: 1rem;
+  }
+
+  .card-title {
+    font-size: 50px;
+    padding-left: 2rem;
+    text-align: left;
+    padding-bottom: 1rem;
+    line-height: 45px;
+  }
+
+  .price-new {
+    font-size: 40px;
+  }
+
+  .price-old {
+    font-size: 20px;
+  }
+
+  .button-add {
+    margin: 0;
+    font-size: 20px;
+    margin-top: 2rem;
+    align-items: center;
+    margin-left: 2rem;
+    width: 320px;
+  }
+
+  .card-prieces {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 2rem;
+    align-items: center;
+    padding-top: 5rem;
+  }
+
+  .text-floral {
+    display: flex;
+    padding-left: 2rem;
+    text-align: left;
+    padding-right: 1rem;
+
+    font-size: 20px;
+    padding-bottom: 1rem;
+  }
+
+  .button-add:hover {
+    cursor: pointer;
+  }
+}
